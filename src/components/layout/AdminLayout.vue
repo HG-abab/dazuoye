@@ -39,7 +39,7 @@
 
       <div class="user-info border-t border-gray-100 p-4" v-if="!collapsed">
         <div class="flex items-center">
-          <el-avatar :size="32" src="https://randomuser.me/api/portraits/men/1.jpg" />
+          <el-avatar :size="32" src="../../assets/logo.png" />
           <div class="ml-2">
             <div class="text-sm font-medium text-gray-900">管理员</div>
             <div class="text-xs text-gray-500">admin@example.com</div>
@@ -65,7 +65,7 @@
         <div class="flex items-center space-x-4">
           <el-dropdown trigger="click">
             <span class="el-dropdown-link cursor-pointer flex items-center">
-              <el-avatar :size="32" src="https://randomuser.me/api/portraits/men/1.jpg" />
+              <el-avatar :size="32" src="../../assets/logo.png" />
               <span class="ml-1">管理员</span>
               <el-icon class="el-icon--right"><arrow-down /></el-icon>
             </span>

@@ -87,8 +87,7 @@ export default defineConfig(({ command, mode }) => {
       port: 3000,
       open: true,
       cors: true,
-    },
-    base: '/eng-dev'
+    }
   }
 })
 
